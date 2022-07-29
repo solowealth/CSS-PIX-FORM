@@ -1,0 +1,85 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+
+.container{  /* This is the styling for the Doggy picture */
+    background-image: url(./picture.png); 
+    background-repeat: no-repeat;
+    height: 25rem;
+    background-position: center;
+    background-size: 90%;
+    margin-top: 10px;
+}
+
+h3{
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+p{
+    color: greenyellow;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.intro{
+    padding: 7rem;
+}
+
+.form{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+
+#name{
+    color: blueviolet;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#email{
+    color: blueviolet;
+    font-size: 15px;
+    font-family: sans-serif;  
+}
+#name-placeholder{
+    
+}
+
+#password{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#get-started{
+    color: white;
+    background-color: blueviolet;
+    height: 40px;
+    
+}
+
+input{
+    width: 80%;
+    outline-style: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+button{
+    width: 80%;
+}
+.footer{
+    text-align: center;
+}
+
+#signing-up{
+    color: grey;
+    font-size: 1.3rem;
+}
+#terms-and-conditions{
+    color: blueviolet;
+    font-size: 1.3rem;
+}
